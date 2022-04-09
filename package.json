@@ -1,0 +1,19 @@
+{
+  "name": "kevin-keyboards",
+  "version": "1.0.0",
+  "description": "Kevin's Business",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinKaras/Kevin-Keyboards.git"
+  },
+  "author": "Kevin Karas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinKaras/Kevin-Keyboards/issues"
+  },
+  "homepage": "https://github.com/KevinKaras/Kevin-Keyboards#readme"
+}
