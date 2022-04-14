@@ -18,11 +18,11 @@ function NavBar(){
                 <Search className="Search-Bar"/>
             </div>
             <div className="Button-Container">
-                <button className="-Button"></button>
-                <button className="-Button"></button>
-                <button className="-Button"></button>
-                <button className="-Button"></button>
-                <button className="-Button"></button>
+                <button className="Shop-Button">Shop</button>
+                <button className="Discover-Button">Discover</button>
+                <button className="Login-Button">Login</button>
+                <button className="My-Cart-Button">My Cart</button>
+                <button className="Support-Button">Support</button>
             </div>
 
 
