@@ -1,13 +1,13 @@
 import React from "react";
 import Search from "./Search.js"
-
+import "./CSS/NavBar.css"
 function NavBar(){
 
 
 
 
     return (
-        <div className="NavBarDiv">
+        <div className="Nav-Bar-Div">
             <div className="Icon-Container">
                 <img className="Site-Logo"></img>
                 <div className="Title-Container">
