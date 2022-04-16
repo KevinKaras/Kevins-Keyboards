@@ -1,7 +1,101 @@
 .Nav-Bar-Div{
-    display: flex
+    display: flex;
+    justify-content: space-around;
+    background-color: #A3CEF1;
+    width: 100vw;
+    height: 6vh;
 }
 
 .Icon-Container{
-    display:flex
+    background-color: none;
+    width: 4vw;
+    height: 6vh;
+
 }
+
+.Site-Logo{
+    background-color: #6096BA;
+    width: 4vw;
+    height: 6vh;
+}
+
+.Title-Container{
+    display:flex;
+    align-items: center;
+    background-color: none;
+    width: 18vw;
+    height:6vh;
+}
+
+.Title{
+    color: #274C77;
+    width: 15vw;
+    height: 4vh;
+    margin: 1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+}
+
+.Left-Nav-Side{
+    display:flex;
+    width: 50%
+}
+
+.Right-Nav-Side{
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    width: 50%
+}
+
+.Button-Container{
+
+    margin: 0.5em 2em 0.5em 2em;
+    background-color: blueviolet;
+}
+
+.Shop-Button{
+    background-color: #6096BA ;
+    border: 0.5px solid rgb(17, 143, 175);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Discover-Button{
+    background-color:#6096BA;
+    border: 0.5px solid rgb(17, 143, 175);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Login-Button{
+    background-color: #6096BA;
+    border: 0.5px solid rgb(17, 143, 175);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.My-Cart-Button{
+    background-color: #6096BA;
+    border: 0.5px solid rgb(17, 143, 175);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Support-Button{
+    background-color: #6096BA;
+    border: 0.5px solid rgb(17, 143, 175);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+}
+
