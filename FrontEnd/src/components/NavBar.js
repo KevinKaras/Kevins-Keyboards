@@ -1,11 +1,13 @@
 import React from "react";
 import Search from "./Search.js"
 import "./CSS/NavBar.css"
+
+
 function NavBar(){
 
 
 
-
+    
     return (
         <div className="Nav-Bar-Div">
             <div className="Left-Nav-Side">

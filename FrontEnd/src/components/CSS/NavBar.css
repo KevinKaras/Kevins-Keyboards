@@ -1,7 +1,7 @@
 .Nav-Bar-Div{
     display: flex;
     justify-content: space-around;
-    background-color: #A3CEF1;
+    /* background-color: #A3CEF1; */
     width: 100vw;
     height: 6vh;
 }
@@ -14,7 +14,7 @@
 }
 
 .Site-Logo{
-    background-color: #6096BA;
+    /* background-color: #6096BA; */
     width: 4vw;
     height: 6vh;
 }
@@ -24,11 +24,11 @@
     align-items: center;
     background-color: none;
     width: 18vw;
-    height:6vh;
+    height: 6vh;
 }
 
 .Title{
-    color: #274C77;
+    /* color: #274C77; */
     width: 15vw;
     height: 4vh;
     margin: 1em;
@@ -36,66 +36,98 @@
     font-size: 2em;
 }
 
+.Search-Bar-Container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    width:10vw;
+    height:6vh
+}
+
+/* .Search-Bar{
+    background-color: white;
+    margin:1em;
+    width: 8vw;
+    height:3vh;
+} */
+
 .Left-Nav-Side{
     display:flex;
-    width: 50%
+    width: 50vw;
+    height: 6vh;
 }
 
 .Right-Nav-Side{
     display:flex;
     justify-content: end;
     align-items: center;
-    width: 50%
+    width: 50vw;
+    height: 6vh;
 }
 
 .Button-Container{
 
     margin: 0.5em 2em 0.5em 2em;
-    background-color: blueviolet;
 }
 
 .Shop-Button{
-    background-color: #6096BA ;
+    /* background-color: #6096BA ; */
     border: 0.5px solid rgb(17, 143, 175);
-    color: white;
-    padding: 15px 32px;
+    /* color: #E7ECEF; */
+    padding: 1.25em;
     text-align: center;
     text-decoration: none;
+    width:auto;
+    height:auto;
+    font-size: 14px;
 }
 
 .Discover-Button{
-    background-color:#6096BA;
+    /* background-color:#6096BA; */
     border: 0.5px solid rgb(17, 143, 175);
-    color: white;
-    padding: 15px 32px;
+    /* color: #E7ECEF; */
+    padding: 1.25em;
     text-align: center;
     text-decoration: none;
+    width:auto;
+    height:auto;
+    font-size: 14px;
 }
 
 .Login-Button{
-    background-color: #6096BA;
+    /* background-color: #6096BA; */
     border: 0.5px solid rgb(17, 143, 175);
-    color: white;
-    padding: 15px 32px;
+    /* color: #E7ECEF; */
+    padding: 1.25em;
     text-align: center;
     text-decoration: none;
+    width:auto;
+    height:auto;
+    font-size: 14px;
 }
 
 .My-Cart-Button{
-    background-color: #6096BA;
+    /* background-color: #6096BA; */
     border: 0.5px solid rgb(17, 143, 175);
-    color: white;
-    padding: 15px 32px;
+    /* color: #E7ECEF; */
+    padding:1.25em;
     text-align: center;
     text-decoration: none;
+    width:auto;
+    height:auto;
+    font-size: 14px;
 }
 
 .Support-Button{
-    background-color: #6096BA;
+    /* background-color: #6096BA; */
     border: 0.5px solid rgb(17, 143, 175);
-    color: white;
-    padding: 15px 32px;
+    /* color: #E7ECEF; */
+    padding: 1.25em;
     text-align: center;
     text-decoration: none;
+    width:auto;
+    height:auto;
+    font-size: 14px;
 }
 
