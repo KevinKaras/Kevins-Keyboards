@@ -5,6 +5,7 @@ import {
     Route
   } from "react-router-dom";
 import NavBar from "./components/NavBar.js"
+import Banner from "./components/Banner.js"
 
 
 
@@ -16,7 +17,7 @@ function App(){
             <Router>
                 <Routes>
                     <Route path="">
-
+                        
                     </Route>
                     <Route>
                         
@@ -29,6 +30,7 @@ function App(){
                     </Route>
                 </Routes>
             </Router>
+            <Banner />
         </>
         
     )
