@@ -81,6 +81,7 @@
     width:auto;
     height:auto;
     font-size: 14px;
+    border-radius: 0.25em 0 0 0.25em;
 }
 
 .Discover-Button{
@@ -129,5 +130,6 @@
     width:auto;
     height:auto;
     font-size: 14px;
+    border-radius: 0 0.25em 0.25em 0;
 }
 
