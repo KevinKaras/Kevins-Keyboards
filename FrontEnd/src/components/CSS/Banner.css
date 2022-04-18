@@ -1,9 +1,24 @@
 .Banner-Container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    width: 100vw;
+    height: 75vh;
+    margin-top: 0.5em;
+}
 
+.Banner-Container-Component{
+    display: flex;
+    background-color: blue;
+    width: 75vw;
+    height: 55vh;
 }
 
 .Banner-Left-Side{
-
+    background-color: Black;
+    width: 37.5vw;
+    height: 55vh;
 }
 
 .Banner-Image-Carosel{
@@ -23,5 +38,7 @@
 }
 
 .Banner-Right-Side{
-    
+    background-color: Green;
+    width: 37.5vw;
+    height: 55vh;
 }
