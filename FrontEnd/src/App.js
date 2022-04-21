@@ -6,7 +6,7 @@ import {
   } from "react-router-dom";
 
 import NavBar from "./components/NavBar.js"
-import Banner from "./components/Banner.js"
+import BannerListing from "./components/BannerListing.js"
 
 
 
@@ -31,7 +31,7 @@ function App(){
                     </Route>
                 </Routes>
             </Router>
-            <Banner />
+            <BannerListing />
         </>
         
     )

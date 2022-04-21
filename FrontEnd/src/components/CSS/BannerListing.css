@@ -22,11 +22,17 @@
 }
 
 .Banner-Image-Carosel{
-
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    width:100%;
+    height:85%
 }
 
 .Banner-Image-1{
-
+    width: 45vw;
+    height: 25vh;
 }
 
 .Radio-Button-Group{
@@ -41,4 +47,34 @@
     background-color: Green;
     width: 37.5vw;
     height: 55vh;
+}
+
+.Listing-Name-Container{
+
+}
+
+.Listing-Name{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 20vw;
+    height: 8vh;
+    font-size: 3em;
+}
+
+.Listing-Description-Container{
+
+}
+
+.Listing-Description{
+
+}
+
+.Listing-Price-Container{
+
+}
+
+.Listing-Price{
+    
 }
