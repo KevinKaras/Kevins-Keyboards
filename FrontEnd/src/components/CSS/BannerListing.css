@@ -35,22 +35,27 @@
     height: 25vh;
 }
 
-.Radio-Button-Group{
-
+/* .Radio-Button-Group{ */
+/* 
 }
 
 .Radio-Button{
 
-}
+} */
 
 .Banner-Right-Side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: Green;
     width: 37.5vw;
     height: 55vh;
 }
 
 .Listing-Name-Container{
-
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Listing-Name{
@@ -64,17 +69,27 @@
 }
 
 .Listing-Description-Container{
-
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Listing-Description{
-
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 23vw;
+    height:6vh;
+    background-color: aqua;
 }
 
 .Listing-Price-Container{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .Listing-Price{
-    
+    background-color: aqua;
 }

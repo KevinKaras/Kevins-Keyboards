@@ -40,7 +40,6 @@ function BannerListing(props){
                     <div className="Listing-Price-Container">
                         <div className="Listing-Price">{Listing.Price}</div>
                     </div>
-
                 </div>
 
             </div>
