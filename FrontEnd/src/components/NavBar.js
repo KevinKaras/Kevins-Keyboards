@@ -1,6 +1,7 @@
 import React from "react";
 import Search from "./Search.js"
 import "./CSS/NavBar.css"
+import Logo from "./Photos/Logo.jpg"
 
 
 function NavBar(){
@@ -12,7 +13,7 @@ function NavBar(){
         <div className="Nav-Bar-Div">
             <div className="Left-Nav-Side">
                 <div className="Icon-Container">
-                    <img className="Site-Logo"></img>
+                    <img className="Site-Logo" src={Logo} alt="404"></img>
                 </div>
                 <div className="Title-Container">
                     <div className="Title">Kevin's Keyboards</div>

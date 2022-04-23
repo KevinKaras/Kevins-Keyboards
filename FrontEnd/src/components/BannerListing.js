@@ -32,13 +32,13 @@ function BannerListing(props){
                 </div>
                 <div className="Banner-Right-Side">
                     <div className="Listing-Name-Container">
-                        <div className="Listing-Name">{Listing.Name}</div>
+                        <div className="Listing-Name">The V3 Mechanical Keyboard</div>
                     </div>
                     <div className="Listing-Description-Container">
-                        <div className="Listing-Description">{Listing.Description}</div>
+                        <div className="Listing-Description">Made just the way you want it</div>
                     </div>
                     <div className="Listing-Price-Container">
-                        <div className="Listing-Price">{Listing.Price}</div>
+                        <button className="Add-Banner-To-Cart">Add to Cart</button>
                     </div>
                 </div>
 
