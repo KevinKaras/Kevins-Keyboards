@@ -55,12 +55,12 @@
     margin-left: 3em;
 }
 
-/* .Search-Bar{
+.Search-Bar{
     background-color: white;
     margin:1em;
     width: 8vw;
-    height:3vh;
-} */
+    height:2vh;
+}
 
 .Left-Nav-Side{
     display:flex;
@@ -84,7 +84,7 @@
 
 .Shop-Button{
     background-color: #4caf4f00;
-    border: 1px solid rgba(60, 60, 60, 0.721);
+    border: 0px solid rgba(60, 60, 60, 0.721);
     /* color: #E7ECEF; */
     padding: 1.25em;
     text-align: center;
@@ -96,7 +96,7 @@
 }
 
 .Discover-Button{
-    border: 1px solid rgba(60, 60, 60, 0.721);
+    border: 0px solid rgba(60, 60, 60, 0.721);
     background-color: #4caf4f00;
     color: none;
     /* color: #E7ECEF; */
@@ -109,7 +109,7 @@
 }
 
 .Login-Button{
-    border: 1px solid rgba(60, 60, 60, 0.721);
+    border: 0px solid rgba(60, 60, 60, 0.721);
     background-color: #4caf4f00;
     /* color: #E7ECEF; */
     padding: 1.25em;
@@ -121,7 +121,7 @@
 }
 
 .My-Cart-Button{
-    border: 1px solid rgba(60, 60, 60, 0.721);
+    border: 0px solid rgba(60, 60, 60, 0.721);
     background-color: #4caf4f00;
     /* color: #E7ECEF; */
     padding:1.25em;
@@ -133,7 +133,7 @@
 }
 
 .Support-Button{
-    border: 1px solid rgba(60, 60, 60, 0.721);
+    border: 0px solid rgba(60, 60, 60, 0.721);
     background-color: #4caf4f00;
     /* color: #E7ECEF; */
     padding: 1.25em;
