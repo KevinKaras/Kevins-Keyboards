@@ -1,9 +1,13 @@
 .Search-Bar{
-    background-color: white;
     margin:1em;
     width: 8vw;
-    height:1.5vh;
-    font-size: 14px;
+    height:2.5vh;
+    font-size: 17px;
+    background-image: url('https://www.w3schools.com/css/searchicon.png');
+    background-position:7.5em;
+    background-repeat: no-repeat;
     /* border-color: rgba(60, 60, 60, 0.721); */
     border: 0.12em solid rgba(60, 60, 60, 0.721);
+    background-color: rgb(255, 255, 255);
+    font-family: 'Proxima Nova','Helvetica Neue',Helvetica,Arial,sans-serif;
 }

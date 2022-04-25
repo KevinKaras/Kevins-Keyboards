@@ -56,10 +56,11 @@
 }
 
 .Search-Bar{
-    background-color: white;
     margin:1em;
     width: 8vw;
     height:2vh;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Proxima Nova','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
 .Left-Nav-Side{
@@ -91,7 +92,7 @@
     text-decoration: none;
     width:auto;
     height:auto;
-    font-size: 14px;
+    font-size: 1.15em;
     border-radius: 0.25em 0 0 0.25em;
 }
 
@@ -105,7 +106,7 @@
     text-decoration: none;
     width:auto;
     height:auto;
-    font-size: 14px;
+    font-size: 1.15em;
 }
 
 .Login-Button{
@@ -117,7 +118,7 @@
     text-decoration: none;
     width:auto;
     height:auto;
-    font-size: 14px;
+    font-size: 1.15em;
 }
 
 .My-Cart-Button{
@@ -129,7 +130,7 @@
     text-decoration: none;
     width:auto;
     height:auto;
-    font-size: 14px;
+    font-size: 1.15em;
 }
 
 .Support-Button{
@@ -141,7 +142,7 @@
     text-decoration: none;
     width:auto;
     height:auto;
-    font-size: 14px;
+    font-size: 1.15em;
     border-radius: 0 0.25em 0.25em 0;
 }
 

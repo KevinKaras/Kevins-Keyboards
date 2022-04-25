@@ -6,9 +6,9 @@ function Search(){
 
 
     return (
-        <textarea className="Search-Bar" placeholder="">
+        <input className="Search-Bar" placeholder="Search">
 
-        </textarea>
+        </input>
     )
 
 }

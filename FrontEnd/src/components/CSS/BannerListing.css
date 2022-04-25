@@ -10,14 +10,15 @@
 
 .Banner-Container-Component{
     display: flex;
+    justify-content: center;
     /* background-color: blue; */
-    width: 75vw;
+    width: 95vw;
     height: 55vh;
 }
 
 .Banner-Left-Side{
     /* background-color: Black; */
-    width: 37.5vw;
+    width: 47.5vw;
     height: 55vh;
 }
 
@@ -31,8 +32,8 @@
 }
 
 .Banner-Image-1{
-    width: 30vw;
-    height: 25vh;
+    width: 45vw;
+    height: 40vh;
 }
 
 /* .Radio-Button-Group{ */
