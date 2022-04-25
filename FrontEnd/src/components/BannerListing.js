@@ -5,7 +5,7 @@ import "./CSS/BannerListing.css"
 
 
 
-function BannerListing(props){
+function BannerListing(){
 
     const Listing = useSelector(state => state.Shelf[0])
 
