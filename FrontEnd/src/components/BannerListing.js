@@ -41,9 +41,7 @@ function BannerListing(){
                         <button className="Add-Banner-To-Cart">Add to Cart</button>
                     </div>
                 </div>
-
             </div>
-                
         </div>
 
     )

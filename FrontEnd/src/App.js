@@ -7,7 +7,7 @@ import {
 
 import NavBar from "./components/NavBar.js"
 import BannerListing from "./components/BannerListing.js"
-
+import Explore from "./components/Explore.js";
 
 
 function App(){
@@ -32,6 +32,9 @@ function App(){
                 </Routes>
             </Router>
             <BannerListing />
+            <div className="Explore-Container">
+                <Explore />
+            </div>
         </>
         
     )
