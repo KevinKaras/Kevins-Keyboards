@@ -6,6 +6,8 @@ import ItemListing from "./ItemListing.js"
 function Explore(){
     const listings = useSelector(state => state.Shelf)
 
+    console.log(listings[0])
+
     return (
 
         <div className="Explore-Component">
@@ -14,7 +16,7 @@ function Explore(){
                     Explore
                 </div>
             </div>
-            
+            <ItemListing Item={listings[0]} />
         </div>
 
     )
