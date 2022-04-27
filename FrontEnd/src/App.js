@@ -32,9 +32,7 @@ function App(){
                 </Routes>
             </Router>
             <BannerListing />
-            <div className="Explore-Container">
-                <Explore />
-            </div>
+            <Explore />
         </>
         
     )

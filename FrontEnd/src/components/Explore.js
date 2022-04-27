@@ -3,6 +3,8 @@ import { useSelector } from "react-redux";
 import ItemListing from "./ItemListing.js"
 
 
+import "./CSS/Explore.css"
+
 function Explore(){
     const listings = useSelector(state => state.Shelf)
 
@@ -16,7 +18,10 @@ function Explore(){
                     Explore
                 </div>
             </div>
-            <ItemListing Item={listings[0]} />
+            <div className="Explore-Section-Container">
+                
+            </div>
+            {/* <ItemListing Item={listings[0]} /> */}
         </div>
 
     )
