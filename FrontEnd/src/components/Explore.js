@@ -15,11 +15,12 @@ function Explore(){
         <div className="Explore-Component">
             <div className="Explore-Header">
                 <div className="Explore-Title">
-                    Explore
+                    Explore Our Most Popular Products
                 </div>
+                <div className="Horizontal-Rule"></div>
             </div>
             <div className="Explore-Section-Container">
-                
+
             </div>
             {/* <ItemListing Item={listings[0]} /> */}
         </div>

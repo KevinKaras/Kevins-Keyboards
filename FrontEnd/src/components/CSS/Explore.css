@@ -1,0 +1,37 @@
+
+.Explore-Component{
+    /* background-color: bisque; */
+    width: 100vw;
+    height: 65vh;
+}
+
+.Explore-Header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: lightblue; */
+    width: 100vw;
+    height: 6vh;
+}
+
+.Explore-Title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aliceblue; */
+    width: 30vw;
+    height: 3vh;
+    /* border-bottom: 1px solid black; */
+    font-size: 2em;
+    font-weight: 450;
+    color: #2c2727;
+    font-family: 'Proxima Nova','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.Horizontal-Rule{
+    margin-top: 0.5em;
+    height:0vh;
+    width: 2.5vw;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
