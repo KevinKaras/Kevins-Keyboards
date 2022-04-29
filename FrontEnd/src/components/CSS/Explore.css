@@ -1,6 +1,6 @@
 
 .Explore-Component{
-    /* background-color: bisque; */
+    background-color: bisque;
     width: 100vw;
     height: 65vh;
 }
@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: lightblue; */
+    background-color: lightblue;
     width: 100vw;
     height: 6vh;
 }
@@ -33,5 +33,11 @@
     margin-top: 0.5em;
     height:0vh;
     width: 2.5vw;
-    border-bottom: 1px solid rgb(200, 200, 200);
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.Explore-Section-Container{
+    background-color: grey;
+    width: 100vw;
+    height: 60vh;
 }

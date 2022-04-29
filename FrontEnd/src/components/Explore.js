@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import ItemListing from "./ItemListing.js"
 
@@ -7,8 +7,21 @@ import "./CSS/Explore.css"
 
 function Explore(){
     const listings = useSelector(state => state.Shelf)
+    const [listingComponents, setListingComponents] = useState('')
 
-    console.log(listings[0])
+
+
+
+
+
+    useEffect(()=>{
+
+        setListingComponents(Object.values(listings).map((listing, index)=>{
+            return (
+                <ItemListing Item={listing} key={index} />
+            )
+        }))
+    }, [])
 
     return (
 
@@ -20,9 +33,8 @@ function Explore(){
                 <div className="Horizontal-Rule"></div>
             </div>
             <div className="Explore-Section-Container">
-
+                <div className="Explore-Section-Content">{listingComponents}</div>
             </div>
-            {/* <ItemListing Item={listings[0]} /> */}
         </div>
 
     )

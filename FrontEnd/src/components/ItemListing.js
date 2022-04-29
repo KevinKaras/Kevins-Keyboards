@@ -5,7 +5,7 @@ import "./CSS/ItemListing.css"
 
 function ItemListing(props){
 
-    
+    console.log("THESE ARE LISTING PROPS", props)
 
     return (
 
